@@ -20,8 +20,7 @@ android {
   lintOptions {
     abortOnError false
   }
-  productFlavors {
-  }
+  productFlavors {}
 }
 
 dependencies {
@@ -30,6 +29,8 @@ dependencies {
   implementation 'androidx.annotation:annotation:' + rootProject.androidxLibVersion;
   implementation 'com.google.guava:guava:26.0-android'
   // Testing-only dependencies
+  implementation 'com.android.support:appcompat-v7:28.0.0'
+  implementation 'com.android.support.constraint:constraint-layout:1.1.3'
   androidTestImplementation 'androidx.test:core:' + rootProject.coreVersion;
   androidTestImplementation 'androidx.test.ext:junit:' + rootProject.extJUnitVersion;
   androidTestImplementation 'androidx.test:runner:' + rootProject.runnerVersion;
