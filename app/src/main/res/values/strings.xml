@@ -12,4 +12,5 @@
     <string name="good_choice">Good choice!</string>
     <string name="bad_choice">Bad choice!</string>
     <string name="row_label">Clicked on row</string>
+    <string name="waiting_message">Waiting for message</string>
 </resources>
